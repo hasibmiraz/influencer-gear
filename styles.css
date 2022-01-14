@@ -1,10 +1,23 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+/* Common Styles */
 body {
   width: 90%;
   margin: auto;
   font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 24px;
 }
 
 /* Navbar */
@@ -13,7 +26,6 @@ body {
 }
 .nav-title {
   flex: 1;
-  font-size: 24px;
   color: #3a3a3a;
 }
 
@@ -25,6 +37,7 @@ body {
   color: #3a3a3a;
   text-decoration: none;
   margin-left: 34px;
+  font-weight: 600;
 }
 
 /* Header Section */
@@ -35,7 +48,6 @@ body {
 }
 
 .header-title {
-  font-size: 52px;
   color: #3a3a3a;
 }
 
@@ -108,4 +120,16 @@ hr {
 
 /* 
 * Main Section 
-* or Popular Collection section */
+* or Popular Collection section 
+*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.main-title {
+  color: #3a3a3a;
+}
