@@ -7,6 +7,26 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+/* Navbar */
+.navbar {
+  display: flex;
+}
+.nav-title {
+  flex: 1;
+  font-size: 24px;
+  color: #3a3a3a;
+}
+
+.nav-links {
+  margin-top: 24px;
+}
+
+.nav-links a {
+  color: #3a3a3a;
+  text-decoration: none;
+  margin-left: 34px;
+}
+
 /* Header Section */
 .header {
   display: flex;
