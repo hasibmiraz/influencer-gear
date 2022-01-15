@@ -303,7 +303,11 @@ footer {
     width: 95%;
   }
 
-  .navbar {
+  .nav-title {
+    text-align: center;
+  }
+
+  .nav-links {
     display: none;
   }
 
