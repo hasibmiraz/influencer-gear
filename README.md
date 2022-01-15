@@ -2,4 +2,4 @@
 
 <p>To visit the website you may click the link below</p>
 
-[Click to visit](https://hasibmiraz.github.io/influencer-gear/)
+Visit: [Influencer Gear](https://hasibmiraz.github.io/influencer-gear/)
